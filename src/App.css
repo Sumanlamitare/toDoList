@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  gap: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  /* width: 100vw; */
+}
+.ptag {
+  display: flex;
+  /* margin-top: 1em; */
+  align-items: center;
+}
+.form {
+  justify-self: center;
+  margin-top: 3em;
+}
+.taskHolder {
+  border: 3px solid wheat;
+  border-radius: 30px;
+  /* height: auto; */
+  height: 100px;
+  width: 500px;
+  justify-self: center;
+  margin-top: 2em;
+  overflow: auto;
+  scrollbar-color: blue;
+  color: white;
+}
+.input {
+  height: 30px;
+  width: 180px;
+}
+.submitBtn {
+  background-color: blue;
+  color: white;
+  border: none;
+  /* border-radius: 30px; */
+  width: 90px;
+  height: 30px;
+}
+.submitBtn:hover {
+  border-radius: 30px;
+}

@@ -67,5 +67,5 @@ button:focus-visible {
   }
 } */
 body {
-  background-color: black;
+  background-color: hsl(from color h s l);
 }
